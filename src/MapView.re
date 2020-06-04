@@ -257,7 +257,7 @@ module Make = (T: {type t;}) => {
                             | `imagebutton
                           ]
                             =?,
-      ~accessibilityStates: array(ReactNative.AccessibilityState.t)=?,
+      ~accessibilityStates: array(ReactNative.Accessibility.state)=?,
       ~accessibilityTraits: array(ReactNative.AccessibilityTrait.t)=?,
       ~accessibilityViewIsModal: bool=?,
       ~accessible: bool=?,
